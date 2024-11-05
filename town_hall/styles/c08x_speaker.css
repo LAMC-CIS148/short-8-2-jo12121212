@@ -84,7 +84,6 @@ aside h2 {
 	font-size: 130%;
 	padding: .6em 0 .25em 0;
 }
-
 aside h3 {
 	font-size: 100%;
 	padding-bottom: .25em;
@@ -97,7 +96,6 @@ aside img {
 footer {
 	background-color: #931420;
 	clear: both;
-
 }
 footer p {
 	text-align: center;
@@ -105,3 +103,32 @@ footer p {
 	padding: 1em 0;
 }
 
+/* Media query for screen widths up to 850px */
+@media screen and (max-width: 850px) {
+	body {
+		font-size: 90%; /* Reduce base font size to 90% */
+	}
+	#nav_list li {
+		border: none; /* Remove border */
+		box-shadow: none; /* Remove box shadow */
+	}
+	#nav_list a {
+		padding-left: 0; /* Remove left padding */
+	}
+}
+
+/* Media query for screen widths up to 650px */
+@media screen and (max-width: 650px) {
+	section, aside {
+		width: 100%; /* Make section and aside full width */
+		float: none; /* Remove floating */
+		padding: 10px; /* Adjust padding */
+	}
+	section h1 {
+		font-size: 130%; /* Adjust title font size */
+	}
+	article img {
+		float: none; /* Remove float for images */
+		margin: 0; /* Reset image margins */
+	}
+}
