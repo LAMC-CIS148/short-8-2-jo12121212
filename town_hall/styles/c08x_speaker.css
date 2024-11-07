@@ -47,7 +47,7 @@ main {
 /* the styles for the section */
 section {
 	width: 575px;
-	float: right;
+	float: ;
 	padding: 0 20px 20px 20px;
 }
 section h1 {
@@ -106,29 +106,29 @@ footer p {
 /* Media query for screen widths up to 850px */
 @media screen and (max-width: 850px) {
 	body {
-		font-size: 90%; /* Reduce base font size to 90% */
+		font-size: 90%; 
 	}
 	#nav_list li {
-		border: none; /* Remove border */
-		box-shadow: none; /* Remove box shadow */
+		border: none; 
+		box-shadow: none; 
 	}
 	#nav_list a {
-		padding-left: 0; /* Remove left padding */
+		padding-left: 0; 
 	}
 }
 
 /* Media query for screen widths up to 650px */
 @media screen and (max-width: 650px) {
 	section, aside {
-		width: 100%; /* Make section and aside full width */
-		float: none; /* Remove floating */
-		padding: 10px; /* Adjust padding */
+		width: 100%; 
+		float: none; 
+		padding: 10px; 
 	}
 	section h1 {
-		font-size: 130%; /* Adjust title font size */
+		font-size: 130%; 
 	}
 	article img {
-		float: none; /* Remove float for images */
-		margin: 0; /* Reset image margins */
+		float: none; 
+		margin: 0; 
 	}
 }
